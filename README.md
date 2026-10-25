@@ -114,24 +114,6 @@ Bildock позволяет создать проект, подключить л�
 
 Микросервисный backend на FastAPI (asyncio): три сервиса (auth, gateway, project), 8 таблиц PostgreSQL. Развёрнут в Yandex Cloud: Docker Compose, HTTPS, gateway, логирование.
 
-<details>
-<summary>Схема в виде текста (Mermaid)</summary>
-
-```mermaid
-flowchart LR
-    WEB[Веб-интерфейс] --> GW[gateway]
-    CLI[CLI на машине разработчика] --> GW
-    GW --> AUTH[auth]
-    GW --> PROJ[project]
-    AUTH --> PG[(PostgreSQL)]
-    PROJ --> PG
-    AUTH --> R[(Redis)]
-    GW --> R
-    PROJ -. WebSocket .-> WEB
-```
-
-</details>
-
 ## ✅ Качество
 
 <div align="center">
@@ -139,10 +121,6 @@ flowchart LR
 | Тесты | Покрытие | CI | Производительность gateway |
 |:---:|:---:|:---:|:---:|
 | **171** на pytest | **81-93%** по сервисам | **60-75 сек** | **~1500 RPS**, p95 **~8 мс** |
-
-<br>
-
-<img src="docs/ci-green.png" alt="CI: все проверки пройдены" width="700">
 
 </div>
 
