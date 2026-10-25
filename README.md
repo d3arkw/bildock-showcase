@@ -17,7 +17,7 @@ SaaS-сервис для backend-разработчиков: CLI, веб-инт�
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![WebSocket](https://img.shields.io/badge/WebSocket-realtime-6366f1)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI-2088FF?logo=githubactions&logoColor=white)
-![Yandex Cloud](https://img.shields.io/badge/Yandex_Cloud-деплой-FC3F1D)
+![FirstByte](https://img.shields.io/badge/Yandex_Cloud-деплой-FC3F1D)
 
 <br>
 
